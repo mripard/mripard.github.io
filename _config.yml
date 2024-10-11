@@ -1,0 +1,16 @@
+title: Maxime Ripard's Blog
+email: mripard@kernel.org
+description: >- # this means to ignore newlines until "baseurl:"
+  Linux, graphics, ARM and stuff.
+domain: "mripard.github.io"
+baseurl: ""
+url: "https://mripard.github.io"
+github_username: mripard
+
+# Build settings
+# theme: minima
+remote_theme: fongandrew/hydeout
+plugins:
+  - jekyll-feed
+
+paginate: 5
