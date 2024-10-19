@@ -90,7 +90,7 @@ The SystemReady-IR specification requires GPT. In contrast, the TI AM62 platform
 
 Altogether, we already cover pretty different use cases and a decent part of our problem.
 
-To go with these containers, I created a tool called ocibootstrap that will turn such a container into a disk image.
+To go with these containers, I created a tool called [ocibootstrap](https://github.com/mripard/ocibootstrap) that will turn such a container into a disk image.
 
 To carry the partition table requirements along the container, I chose to use container labels. They are essentially metadata distributed along the containers. A nice thing is that if you create a new container from a base one, the new container will keep the base container labels. This allow to keep the partition table definition even if the user makes modifications.
 
